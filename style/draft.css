@@ -1,0 +1,168 @@
+/**  I - normalize  ***************/
+/**********************************/
+/*  @  github.com/necolas/normalize.css */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sub{bottom:-0.25em}sup{top:-0.5em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0;}td,th{padding:0}
+
+/**  II - screen  *****************/
+/**********************************/
+
+	/* +++ TYPE ++++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		.al-initially{background-color:#5a5a5a}
+		.al-initially:hover{background-color:#3e3e3e !important}
+		.al-ok{background-color:#54d854}
+		.al-ok:hover{background-color:#45b945 !important}
+		.al-information{background-color:#1297E0}
+		.al-information:hover{background-color:#0077c0 !important}
+		.al-warning{background-color:#ffc446}
+		.al-warning:hover{background-color:#ffaf04 !important}
+		.al-danger{background-color:#ea0000}
+		.al-danger:hover{background-color:#d00000 !important}
+
+	/* +++ DIMENSION ++++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		.al-xxsmall{}
+		.al-xsmall{}
+		.al-small{}
+		.al-mediu{}
+		.al-large{}
+		.al-xlarge{}
+		.al-xxlarge{}
+		.al-extend{}
+
+	/* +++ STATUS ++++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		.al-disabled{}
+		.al-enabled{}
+		.al-active{}
+
+	/* +++ GRIND ++++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		/*container*/
+		.al-container{}
+		.al-container.flexible{}
+		/*row*/
+		.al-row{}
+		/*colums*/
+		.al-col-01s ~ .al-col-12s	/* @ media 768px */
+		.al-col-01m ~ .al-col-12m	/* @ media 992px */
+		.al-col-01l ~ .al-col-12l	/* @ media 1200px*/
+
+
+	/* +++ NAVBAR +++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		/*navbar*/
+			.al-navbar{}
+		/*navbar-top*/
+			.al-navbar-top{}
+		/*navbar-side*/
+			.al-navbar-side{}
+		/*navbar xxx*/
+			.al-navbar-header{}
+			.al-navbar-title{}
+			.al-navbar-handle{}
+			.al-navbar-show{}
+		/*navbar dimension*/
+			.al-navbar.al-small{}
+
+			.al-navbar.al-mediu{}
+
+			.al-navbar.al-large{}
+
+			.al-navbar.al-xlarge{}
+
+			.al-navbar.al-extend{}
+
+
+	/* +++ BUTTONS ++++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		/*button*/
+			.al-button,
+			button{}
+
+		/*button tipe*/
+			.al-button.al-initially,
+			button.al-initially{}
+
+			.al-button.al-ok,
+			button.al-ok{}
+
+			.al-button.al-information,
+			button.al-information{}
+
+			.al-button.al-warning,
+			button.al-warning{}
+
+			.al-button.al-danger,
+			button.al-danger{}
+
+		/*button dimension*/
+			.al-button.al-xsmall,
+			button.al-xsmall{}
+
+			.al-button.al-small,
+			button.al-small{}
+
+			.al-button.al-mediu,
+			button.al-mediu{}
+
+			.al-button.al-large,
+			button.al-large{}
+
+			.al-button.al-xlarge,
+			button.al-xlarge{}
+
+		/*button status*/
+			.al-button.al-disabled,
+			button.al-disabled{}
+
+			.al-button.al-active,
+			button.al-active{}
+
+		/*button msc*/
+			.al-button-group{}
+			
+
+	/* +++ ALERT-BOX ++++++++++++++++ */
+	/* ++++++++++++++++++++++++++++++ */
+		/*alert*/
+			.al-alert-box{}
+
+		/*alert tipe*/
+			.al-alert-box.al-initially{}
+
+			.al-alert-box.al-ok{}
+
+			.al-alert-box.al-information{}
+
+			.al-alert-box.al-warning{}
+
+			.al-alert-box.al-danger{}
+
+		/*alert msc*/
+			
+			
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+	/* +++ GRIND +++ */
+	/* ++++++++++++++++++++++++++++++ */
+
+
+/* --III - typography-- ***********/
+/**********************************/
